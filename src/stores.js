@@ -7,7 +7,7 @@ export const articles = writable([
         subtitle: 'I have rebuilt this blog way too many times.',
         date: '4/18/2020',
         preview: '/previews/webdev-year.svg',
-        link: '/articles/webdev-year',
+        link: 'webdev-year',
         tags: ['Webdev', 'React']
 	},
 	{
@@ -16,8 +16,17 @@ export const articles = writable([
         subtitle: 'Experimental 3D tiles are fun.',
         date: '3/03/2020',
         preview: '/previews/terrain-map.gif',
-        link: '/articles/deck-terrain',
+        link: 'deck-terrain',
         tags: ['Mapping', 'Deck.gl']
-	}
+    },
+    {
+        id: 3,
+        title: 'Learning DevOps, Unfortunately',
+        subtitle: 'Accepting my fate and building robust software.',
+        date: '10/26/2019',
+        preview: '/previews/learning-devops.png',
+        link: 'learning-devops',
+        tags: ['Webdev', 'Docker']
+      }
 ]);
 
