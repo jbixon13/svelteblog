@@ -24,7 +24,7 @@ export const articles = writable([
         title: 'Learning DevOps, Unfortunately',
         subtitle: 'Accepting my fate and building robust software.',
         date: '10/26/2019',
-        preview: '/previews/learning-devops.png',
+        preview: 'learning-devops.png',
         link: 'learning-devops',
         tags: ['Webdev', 'Docker']
       }
