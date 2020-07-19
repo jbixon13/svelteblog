@@ -4,9 +4,11 @@
 </script>
 
 <main>
-    <h3>{article.title}</h3>
-    <p>{article.subtitle}</p>
-    <a href={$url('/blog/' + article.link)}>Link</a>
+    <a href={$url('/blog/' + article.link)}>
+        <img src={'/images/previews/' + article.preview} alt='article preview' />
+        <h3>{article.title}</h3>
+        <p>{article.subtitle}</p>
+    </a>
 </main>
 
 <style>

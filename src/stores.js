@@ -6,7 +6,7 @@ export const articles = writable([
         title: 'A Year of Web Development',
         subtitle: 'I have rebuilt this blog way too many times.',
         date: '4/18/2020',
-        preview: '/previews/webdev-year.svg',
+        preview: 'webdev-year.svg',
         link: 'webdev-year',
         tags: ['Webdev', 'React']
 	},
@@ -15,7 +15,7 @@ export const articles = writable([
         title: '3D Terrain in Deck.gl',
         subtitle: 'Experimental 3D tiles are fun.',
         date: '3/03/2020',
-        preview: '/previews/terrain-map.gif',
+        preview: 'terrain-map.gif',
         link: 'deck-terrain',
         tags: ['Mapping', 'Deck.gl']
     },
