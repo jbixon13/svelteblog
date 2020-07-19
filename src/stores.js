@@ -27,6 +27,54 @@ export const articles = writable([
         preview: 'learning-devops.png',
         link: 'learning-devops',
         tags: ['Webdev', 'Docker']
+      },
+      {
+        id: 4,
+        title: 'Mapping Cyclist Safety in New York City',
+        subtitle: 'Is there a relationship between bike path access and cyclist injuries?',
+        date: '9/11/2019',
+        preview: 'cyclist-safety.svg',
+        link: 'cyclist-safety',
+        tags: ['Transit', 'sf']
+      },                       
+      {
+        id: 5,
+        title: 'Year One in Review',
+        subtitle: 'A reflection on my first year (and change) in the real world.',
+        date: '8/04/2019',
+        preview: 'year-one.png',
+        link: 'year-one',
+        tags: ['Career']
+      },     
+      {
+        id: 6,
+        title: 'MTA Doom and Gloom',
+        subtitle: 'Is the subway system as dire as we say it is?',
+        date: '4/14/2019',
+        preview: 'mta-doom-gloom.gif',
+        link: 'MTA-doom-gloom',
+        tags: ['Transit', 'Plotly']
+
+      },
+      {
+        id: 7,
+        title: 'Shiny is Cool as Hell',
+        subtitle: 'A surprisingly intuitive tool for data democratization.',
+        date: '4/2/2019',
+        preview: 'shiny-is-cool.jpg',
+        link: 'shiny-cool',
+        tags: ['Webdev', 'Shiny']
+
+
+      },
+      {
+        id: 8,
+        title: 'New Year, New (First) Blog',
+        subtitle: 'Trying my best.',
+        date: '1/24/2019',
+        preview: 'new-blog.jpg',
+        link: 'new-blog',
+        tags: ['Career']
       }
 ]);
 
