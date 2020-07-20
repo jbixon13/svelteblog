@@ -54,7 +54,6 @@ export const articles = writable([
         preview: 'mta-doom-gloom.gif',
         link: 'MTA-doom-gloom',
         tags: ['Transit', 'Plotly']
-
       },
       {
         id: 7,
@@ -64,8 +63,6 @@ export const articles = writable([
         preview: 'shiny-is-cool.jpg',
         link: 'shiny-cool',
         tags: ['Webdev', 'Shiny']
-
-
       },
       {
         id: 8,

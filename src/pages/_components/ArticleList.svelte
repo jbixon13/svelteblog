@@ -4,7 +4,6 @@
 </script>
 
 <main>
-    <h1>Let's test the ArticleList component:</h1>
     <ul>
 	    {#each $articles as article}
             <ArticleItem article={article}/>
