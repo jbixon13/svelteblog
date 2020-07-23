@@ -1,3 +1,10 @@
+:root {
+	--primary-color: hsl(200, 60%, 15%);
+	--white-text: rgba(255, 255, 255, 0.8);
+	--white-text-hover: rgba(255, 255, 255, 1);
+	--black: rgba(0, 0, 0, 0.8);
+}
+
 html, body {
 	position: relative;
 	width: 100%;

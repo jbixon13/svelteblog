@@ -8,7 +8,7 @@
     metatags.description = 'Description coming soon...'
 </script>
 
-<RoutifyIntro />
 <Header />
+<RoutifyIntro />
 <ArticleList /> 
 <Footer />
