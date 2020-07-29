@@ -47,7 +47,7 @@
     ul {
         float: right;
         font-weight: 300;
-        margin-top: 20px;
+        margin-top: 22px;
         margin-right: 24px;
         margin-left: -40px;
     }
