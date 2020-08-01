@@ -7,16 +7,24 @@
     <Header />
     <ul>
         <li>
-            <a href='mailto:jbixon13@gmail.com'>Mail</a>
+            <a href='mailto:jbixon13@gmail.com'>
+                <img src='/images/contact-icons/email.svg' alt='Email link'/>
+            </a>
         </li>
         <li>
-            <a href='https://www.github.com/jbixon13'>Github</a>
+            <a href='https://www.github.com/jbixon13'>
+                <img src='/images/contact-icons/github.svg' alt='Github link'/>
+            </a>
         </li>
         <li>
-            <a href='https://www.twitter.com/bixondata'>Twitter</a>
+            <a href='https://www.twitter.com/bixondata'>
+                <img src='/images/contact-icons/twitter.svg' alt='Twitter link'/>
+            </a>
         </li>
         <li>
-            <a href='https://www.linkedin.com/in/jasonbixon'>LinkedIn</a>
+            <a href='https://www.linkedin.com/in/jasonbixon'>
+                <img src='/images/contact-icons/linkedin.svg' alt='LinkedIn link'/>
+            </a>
         </li>
     </ul>
     <Footer />
