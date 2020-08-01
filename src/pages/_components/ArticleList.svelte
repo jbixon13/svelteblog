@@ -1,5 +1,5 @@
 <script>
-    import { articles } from '../../stores.js';
+    import { articles } from '../../stores.js'
     import ArticleItem from './ArticleItem.svelte'
 </script>
 

@@ -13,7 +13,7 @@
             <a href='/about'>
                 <li>About</li>
             </a>
-            <a href='https://jasonbixon.netlify.com/portfolio/' target='_blank' rel='noopener noreferrer'>
+            <a href='/portfolio'>
                 <li>Portfolio</li>
             </a>
             <a href='/contact'>

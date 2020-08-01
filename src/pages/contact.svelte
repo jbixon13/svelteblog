@@ -1,4 +1,10 @@
+<script>
+    import Header from './_components/Header.svelte'
+    import Footer from './_components/Footer.svelte'
+</script>
+
 <main>
+    <Header />
     <ul>
         <li>
             <a href='mailto:jbixon13@gmail.com'>Mail</a>
@@ -13,6 +19,7 @@
             <a href='https://www.linkedin.com/in/jasonbixon'>LinkedIn</a>
         </li>
     </ul>
+    <Footer />
 </main>
 
 <style>
