@@ -13,5 +13,20 @@
 <style>
     main {
         border: 1px solid var(--line-color);
+        margin-bottom: 24px;
     }
+
+    h5 {
+        margin: 10px;
+    }
+
+    p {
+        margin: 10px;
+    }
+
+    @media (min-width: 768px) {
+        main {
+            margin-bottom: unset;
+        }
+    } 
 </style>
