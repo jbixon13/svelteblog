@@ -96,8 +96,32 @@ export const projects = writable([
   },
   {
     id: 4,
-    title: 'Mapping Cyclist Safety in New York City',
-    subtitle: 'Description here',
+    title: 'Shinyhero',
+    subtitle: 'An end-to-end pipeline for the DevOps-illiterate.',
+    link: 'link3'
+  },
+  {
+    id: 5,
+    title: 'Hiking Buddy',
+    subtitle: 'Mapbox + Unity 3D = Me buying an Android developer license.',
+    link: 'link3'
+  },
+  {
+    id: 6,
+    title: 'Sync the City',
+    subtitle: 'Synchronizing change throughout the city.',
+    link: 'link3'
+  },
+  {
+    id: 7,
+    title: 'Default Effect Study',
+    subtitle: 'How does transparency in messaging impact renewable energy adoption?',
+    link: 'link4'
+  },
+  {
+    id: 8,
+    title: 'Pro-Environmental Action Lab',
+    subtitle: 'My work as a research associate in a sustainability psychology lab.',
     link: 'link4'
   }
 ]);
