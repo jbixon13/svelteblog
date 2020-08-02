@@ -78,22 +78,26 @@ export const articles = writable([
 export const projects = writable([
 	{
     id: 1,
-    title: 'A Year of Web Development',
+    title: 'Svelteblog',
+    subtitle: 'Description here',
     link: 'link1'
 	},
 	{
     id: 2,
-    title: '3D Terrain in Deck.gl',
+    title: 'Healthcare Rollcall',
+    subtitle: 'Description here',
     link: 'link2'
   },
   {
     id: 3,
-    title: 'Learning DevOps, Unfortunately',
+    title: 'Mario',
+    subtitle: 'Description here',
     link: 'link3'
   },
   {
     id: 4,
     title: 'Mapping Cyclist Safety in New York City',
+    subtitle: 'Description here',
     link: 'link4'
   }
 ]);

@@ -32,16 +32,13 @@
 
 <style>
     ul {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        padding: unset;
         margin-top: 32vh;
         margin-bottom: 32vh;
         list-style: none;
-    }
-
-    li {
-        flex: 1 0 21%;
     }
 
     img {

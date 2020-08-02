@@ -4,6 +4,14 @@
 </script>
 
 <main>
-    <h1>{project.title}</h1>
-    <a href={$url('/portfolio/' + project.link)}>Link here</a>
+    <a href={$url('/portfolio/' + project.link)}>
+        <h5>{project.title}</h5>
+        <p>{project.subtitle}</p>
+    </a>
 </main>
+
+<style>
+    main {
+        border: 1px solid var(--line-color);
+    }
+</style>
