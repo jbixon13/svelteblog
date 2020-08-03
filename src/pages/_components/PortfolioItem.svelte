@@ -5,7 +5,7 @@
 
 <main>
     <a href={$url('/portfolio/' + project.link)}>
-        <img src='/images/previews/new-blog.jpg' alt='Portfolio preview' />
+        <img src={'/images/portfolio-previews/' + project.preview} alt='Portfolio preview' />
         <h5>{project.title}</h5>
         <p>{project.subtitle}</p>
     </a>
@@ -31,7 +31,9 @@
 
     @media (min-width: 768px) {
         main {
-            margin-bottom: unset;
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
     } 
 </style>

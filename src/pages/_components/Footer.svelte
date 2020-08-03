@@ -4,7 +4,7 @@
 <main>
     <footer>
         <p>Made in Philly</p>
-        <p>Design modeled after Distill.pub</p>
+        <p>Design modeled after <a href='https://distill.pub/'>Distill.pub</a></p>
         <p>Artwork attributions [tbd]</p>
     </footer>
 </main>
@@ -23,5 +23,14 @@
 
     p {
         margin: unset;
+    }
+
+    a {
+        color: var(--footer-text);
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--white-text);
     }
 </style>

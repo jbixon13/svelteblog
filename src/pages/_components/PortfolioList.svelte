@@ -19,9 +19,10 @@
 
     @media (min-width: 768px) {
         ul {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 2em;
+            column-count: 3;
+            column-gap: 24px;
+            margin-left: 96px;
+            margin-right: 96px;
         }
     }
 

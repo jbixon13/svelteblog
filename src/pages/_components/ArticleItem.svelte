@@ -13,7 +13,7 @@
         </div>
     </div>
     <a href={$url('/blog/' + article.link)}>
-        <img src={'/images/previews/' + article.preview} alt='Article preview' />
+        <img src={'/images/blog-previews/' + article.preview} alt='Article preview' />
         <h3 class='title'>{article.title}</h3>
         <p class='subtitle'>{article.subtitle}</p>
     </a>
