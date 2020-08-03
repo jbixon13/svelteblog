@@ -5,6 +5,7 @@
     import { metatags } from '@sveltech/routify'
     metatags.title = 'Jason Bixon'
     metatags.description = 'A collection of my thoughts and projects'
+    metatags.image = '/images/social-card.png'
 </script>
 
 <Header />
