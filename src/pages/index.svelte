@@ -6,6 +6,7 @@
     metatags.title = 'Jason Bixon'
     metatags.description = 'A collection of my thoughts and projects'
     metatags.image = `https://deploy-preview-4--jasonbixonsvelte.netlify.app/social-card.png`
+    metatags['twitter:card'] = `https://deploy-preview-4--jasonbixonsvelte.netlify.app/social-card.png`
 </script>
 
 <Header />
