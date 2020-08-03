@@ -5,7 +5,7 @@
     import { metatags } from '@sveltech/routify'
     metatags.title = 'Jason Bixon'
     metatags.description = 'A collection of my thoughts and projects'
-    metatags.image = '/social-card.png'
+    metatags.image = `https://deploy-preview-4--jasonbixonsvelte.netlify.app/social-card.png`
 </script>
 
 <Header />
