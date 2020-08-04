@@ -3,8 +3,10 @@
     import ArticleList from './_components/ArticleList.svelte'
     import Footer from './_components/Footer.svelte'
     import { metatags } from '@sveltech/routify'
-    metatags.title = 'My Routify app'
-    metatags.description = 'Description coming soon...'
+    metatags.title = 'Jason Bixon'
+    metatags.description = 'A collection of my thoughts and projects'
+    metatags.image = `https://jasonbixonsvelte.netlify.app/social-card.png`
+    metatags['twitter:card'] = 'summary_large_image'
 </script>
 
 <Header />

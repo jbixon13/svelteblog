@@ -1,12 +1,12 @@
 <script>
-    import { articles } from '../../stores.js'
-    import ArticleItem from './ArticleItem.svelte'
+    import { projects } from '../../stores.js'
+    import PortfolioItem from './PortfolioItem.svelte'
 </script>
 
 <main>
     <ul>
-	    {#each $articles as article}
-            <ArticleItem article={article}/>
+	    {#each $projects as project}
+            <PortfolioItem project={project}/>
 	    {/each}
     </ul>
 </main>
@@ -19,7 +19,10 @@
 
     @media (min-width: 768px) {
         ul {
-            margin-top: 60px;
+            column-count: 3;
+            column-gap: 24px;
+            margin-left: 96px;
+            margin-right: 96px;
         }
     }
 
