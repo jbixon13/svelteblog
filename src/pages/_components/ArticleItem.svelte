@@ -98,7 +98,7 @@
         }
 
         .tags {
-            display: revert;
+            display: unset;
         }
 
         .tag {
