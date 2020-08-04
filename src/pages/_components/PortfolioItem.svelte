@@ -15,6 +15,8 @@
     main {
         box-shadow: 0 0 5px #ccc;
         margin-bottom: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     main:hover {
