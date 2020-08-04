@@ -6,7 +6,7 @@
 <main>
     <a href={$url('/portfolio/' + project.link)}>
         <img src={'/images/portfolio-previews/' + project.preview} alt='Portfolio preview' />
-        <h5>{project.title}</h5>
+        <h4>{project.title}</h4>
         <p>{project.subtitle}</p>
     </a>
 </main>
@@ -28,7 +28,7 @@
         max-width: 100%;
     }
 
-    h5 {
+    h4 {
         margin: 10px;
     }
 
