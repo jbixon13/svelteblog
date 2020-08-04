@@ -13,8 +13,13 @@
 
 <style>
     main {
-        border: 1px solid var(--line-color);
+        box-shadow: 0 0 5px #ccc;
         margin-bottom: 24px;
+    }
+
+    main:hover {
+        transition: 0.35s;
+        box-shadow: 0 0 5px rgb(136, 132, 132);
     }
 
     img {
