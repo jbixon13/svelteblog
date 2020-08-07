@@ -67,6 +67,7 @@
 
     li:hover {
         color: var(--white-text-hover);
+        transition: 0.2s;
     }
 
     @media (min-width: 768px) {
