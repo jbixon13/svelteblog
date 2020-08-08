@@ -81,55 +81,55 @@ export const projects = writable([
     title: 'Svelteblog',
     subtitle: 'Many iterations of this website.',
     preview: 'svelteblog.svg',
-    link: 'link1'
+    link: 'svelteblog'
 	},
 	{
     id: 2,
     title: 'Healthcare Rollcall',
     subtitle: 'A system to track the status of healthcare providers during and after a disaster.',
     preview: 'healthcare-rollcall.svg',
-    link: 'link2'
+    link: 'healthcare-rollcall'
   },
   {
     id: 3,
     title: 'Mario',
     subtitle: 'A REST API for serving data from an R backend.',
     preview: 'mario.svg',
-    link: 'link3'
+    link: 'mario'
   },
   {
     id: 4,
     title: 'Shinyhero',
     subtitle: 'An end-to-end pipeline for the DevOps-illiterate.',
     preview: 'shinyhero.svg',
-    link: 'link3'
+    link: 'shinyhero'
   },
   {
     id: 5,
     title: 'Hiking Buddy',
     subtitle: 'Mapbox + Unity 3D = Me buying an Android developer license.',
     preview: 'hiking-buddy.svg',
-    link: 'link3'
+    link: 'hiking-buddy'
   },
   {
     id: 6,
     title: 'Sync the City',
     subtitle: 'Synchronizing change throughout the city.',
     preview: 'sync-the-city.svg',
-    link: 'link3'
+    link: 'sync-the-city'
   },
   {
     id: 7,
     title: 'Default Effect Study',
     subtitle: 'How does transparency in messaging impact renewable energy adoption?',
     preview: 'defaults-study.svg',
-    link: 'link4'
+    link: 'default-effect-study'
   },
   {
     id: 8,
     title: 'Pro-Environmental Action Lab',
     subtitle: 'My work as a research associate in a sustainability psychology lab.',
     preview: 'pact-lab.svg',
-    link: 'link4'
+    link: 'pact-lab'
   }
 ]);

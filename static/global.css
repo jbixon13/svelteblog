@@ -1,5 +1,6 @@
 :root {
 	--primary-color: hsl(200, 60%, 15%);
+	--accent-color: #536DFE;
 	--white-text: rgba(255, 255, 255, 0.8);
 	--footer-text: rgba(255, 255, 255, .4);
 	--white-text-hover: rgba(255, 255, 255, 1);
@@ -23,10 +24,13 @@ body {
 a {
 	color: var(--primary-color);
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 a:hover {
 	text-decoration: underline;
+	color: var(--accent-color);
+	transition: 0.3s;
 }
 
 label {

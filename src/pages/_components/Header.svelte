@@ -65,8 +65,13 @@
         margin: 0;
     }
 
+    li {
+        transition: 0.2s;
+    }
+
     li:hover {
         color: var(--white-text-hover);
+        transition: 0.2s;
     }
 
     @media (min-width: 768px) {

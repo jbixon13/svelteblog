@@ -6,22 +6,29 @@
 <main>
     <a href={$url('/portfolio/' + project.link)}>
         <img src={'/images/portfolio-previews/' + project.preview} alt='Portfolio preview' />
-        <h5>{project.title}</h5>
+        <h4>{project.title}</h4>
         <p>{project.subtitle}</p>
     </a>
 </main>
 
 <style>
     main {
-        border: 1px solid var(--line-color);
+        box-shadow: 0 0 5px #ccc;
         margin-bottom: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    main:hover {
+        transition: 0.35s;
+        box-shadow: 0 0 5px rgb(136, 132, 132);
     }
 
     img {
         max-width: 100%;
     }
 
-    h5 {
+    h4 {
         margin: 10px;
     }
 
