@@ -43,12 +43,12 @@
 
     img {
         width:30px;
-        transition: ease-out 0.1s;
+        transition: ease-out 0.2s;
     }
 
     img:hover {
         width: 34px;
-        transition: ease-out 0.1s;
+        transition: ease-out 0.2s;
     }
 
     @media (min-width: 768px) {

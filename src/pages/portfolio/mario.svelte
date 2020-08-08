@@ -4,7 +4,7 @@
     import PortfolioContainer from './_components/PortfolioContainer.svelte'
     import { projects } from '../../stores.js'
 
-    let project = $projects[0];
+    let project = $projects[2];
 </script>
 
 <main>
@@ -18,10 +18,10 @@
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
             <div class='links'>
                 <h2>
-                    <a href='https://jasonbixonsvelte.netlify.app/' target='_blank' rel='noopener noreferrer'>See the app</a>
+                    <a href='mario-plumber.herokuapp.com/hello/world' target='_blank' rel='noopener noreferrer'>See the app</a>
                 </h2>
                 <h2>
-                    <a href='https://github.com/jbixon13/svelteblog' target='_blank' rel='noopener noreferrer'>See the code</a>
+                    <a href='https://github.com/jbixon13/mario' target='_blank' rel='noopener noreferrer'>See the code</a>
                 </h2>
             </div>
             <h2>What it is:</h2>

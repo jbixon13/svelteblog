@@ -130,6 +130,6 @@ export const projects = writable([
     title: 'Pro-Environmental Action Lab',
     subtitle: 'My work as a research associate in a sustainability psychology lab.',
     preview: 'pact-lab.svg',
-    link: 'pact'
+    link: 'pact-lab'
   }
 ]);
