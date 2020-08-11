@@ -18,7 +18,7 @@
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
             <div class='links'>
                 <h2>
-                    <a href='https://jasonbixonsvelte.netlify.app/' target='_blank' rel='noopener noreferrer'>See the app</a>
+                    <a href='https://swimlab.weebly.com/pact-pro-environmental-action-lab.html' target='_blank' rel='noopener noreferrer'>See the lab</a>
                 </h2>
                 <h2>
                     <a href='https://swimlab.weebly.com/pact-pro-environmental-action-lab.html' target='_blank' rel='noopener noreferrer'>See the code</a>
@@ -26,26 +26,44 @@
             </div>
             <h2>What it is:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
-                    <ul>
-                        <li>Sub-Item1</li>
-                    </ul>
+                <li>A social psychology lab directed by Janet Swim</li>
+                <li>Focused on modeling and facilitating pro-environmental behavior</li>
+                <li>Experimental studies occuring both in and out of the lab setting</li>
             </ul>
             <h2>What I did:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
+                <li>Reviewed literature to identify outcome measures for replication studies</li>
+                <li>Proposed a study to a town council testing science-based justifications for renewable energy adoption</li>
+                <li>Led participants through studies</li>
+                    <ul>
+                        <li>Fish Simulation Study: Lab study testing whether anger leads to increased competitiveness in commons dilemmas</li>
+                        <li>Nature Walk Study: Outdoor study testing whether exposure to natural environments reduces self-focused thoughts</li>
+                    </ul>
+                <li>Facilitated data collection</li>
+                    <ul>
+                        <li>Walked participants through informed consent</li>
+                        <li>Maintained consistency in experience for data integrity</li>
+                        <li>Built cover story to improve data quality by increasing competitiveness</li>
+                    </ul>
             </ul>
             <h2>What I learned:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
+                <li>CITI IRB/Human Subjects Research Certification</li>
+                <li>Literature Review</li>
+                <li>Scientific Communication</li>
+                <li>Study Facilitation</li>
+                    <ul>
+                        <li>Informed Consent</li>
+                        <li>Data Security</li>
+                        <li>Data Collection</li>
+                        <li>Subject pool assignment</li>
+                    </ul>
             </ul>
             <h2>Why it interests me:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
+                <li>Meaningful climate change aversion must come from behavioral and policy changes</li>
+                <li>Understanding psychological or societal barriers to pro-environmental behavior can inform smarter policy</li>
+                <li>Contributing to a field in novel ways is rewarding and exciting</li>
             </ul>
         </div>
     </PortfolioContainer>
