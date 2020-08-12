@@ -39,21 +39,45 @@
         padding-top: 24px;
     }
 
-    :global(.links) {
+    :global(.project .links) {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    :global(.links h2:first-of-type) {
+    :global(.project .links h2:first-of-type) {
         justify-self: left;
     }
 
-    :global(.links h2:last-of-type) {
+    :global(.project .links h2:last-of-type) {
         justify-self: right;
+    }
+
+    :global(.project .links-single) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    :global(.project .links-single h2) {
+        justify-self: center;
     }
 
     :global(.project li) {
         list-style: url('https://api.iconify.design/oi-chevron-right.svg?width=.6em');
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+    }
+
+    :global(.project li a) {
+        font-weight: 600;
+        color: var(--accent-color);
+    }
+
+    :global(.project code) {
+        font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        padding: 2px 4px;
+        color: #004276;
+        background-color: rgb(207, 223, 235);
+        border-radius: 4px;
     }
 
     @media (min-width: 768px) {

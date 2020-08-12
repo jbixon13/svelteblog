@@ -16,17 +16,14 @@
                 <p class='subtitle'>{project.subtitle}</p>
             </div>
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
-            <div class='links'>
+            <div class='links-single'>
                 <h2>
                     <a href='https://swimlab.weebly.com/pact-pro-environmental-action-lab.html' target='_blank' rel='noopener noreferrer'>See the lab</a>
-                </h2>
-                <h2>
-                    <a href='https://swimlab.weebly.com/pact-pro-environmental-action-lab.html' target='_blank' rel='noopener noreferrer'>See the code</a>
                 </h2>
             </div>
             <h2>What it is:</h2>
             <ul>
-                <li>A social psychology lab directed by Janet Swim</li>
+                <li>A social psychology lab directed by <a href='https://scholar.google.com/citations?user=JQSxXl8AAAAJ&hl=en'>Janet Swim</a></li>
                 <li>Focused on modeling and facilitating pro-environmental behavior</li>
                 <li>Experimental studies occuring both in and out of the lab setting</li>
             </ul>

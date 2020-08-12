@@ -16,10 +16,7 @@
                 <p class='subtitle'>{project.subtitle}</p>
             </div>
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
-            <div class='links'>
-                <h2>
-                    <a href='https://jasonbixonsvelte.netlify.app/' target='_blank' rel='noopener noreferrer'>See the app</a>
-                </h2>
+            <div class='links-single'>
                 <h2>
                     <a href='https://github.com/jbixon13/hiking-buddy' target='_blank' rel='noopener noreferrer'>See the code</a>
                 </h2>

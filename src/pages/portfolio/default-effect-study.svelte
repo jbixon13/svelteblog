@@ -45,7 +45,7 @@
                 <li>Submitted IRB proposal and revised until accepted</li>
                 <li>Administered survey online to subject pool</li>
                 <li>Analyzed data to test hypotheses on outcome measures</li>
-                <li>Presented findings at 2018 AMA ICC and local conferences</li>
+                <li>Presented findings at <a href='https://www.ama.org/'>2018 AMA ICC</a> and <a href='https://sites.psu.edu/psichi/'>local</a> <a href='https://undergradresearch.psu.edu/resources/opportunities/undergraduate-exhibition'>conferences</a></li>
                 <li>Won third place at 2018 AMA ICC representing Penn State</li>
             </ul>
             <h2>What I learned:</h2>
