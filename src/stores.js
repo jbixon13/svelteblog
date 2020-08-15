@@ -78,10 +78,10 @@ export const articles = writable([
 export const projects = writable([
 	{
     id: 1,
-    title: 'Svelteblog',
+    title: 'Personal Website',
     subtitle: 'Many iterations of this website.',
-    preview: 'svelteblog.svg',
-    link: 'svelteblog'
+    preview: 'personal-website.svg',
+    link: 'personal-website'
 	},
 	{
     id: 2,
