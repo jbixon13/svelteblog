@@ -23,6 +23,7 @@
             column-gap: 24px;
             margin-left: 96px;
             margin-right: 96px;
+            margin-top: 60px;
         }
     }
 

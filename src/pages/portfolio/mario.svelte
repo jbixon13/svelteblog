@@ -45,13 +45,22 @@
             </ul>
             <h2>What I learned:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
+                <li>Backend Webdev</li>
+                    <ul>
+                        <li>API design</li>
+                        <li>Plumber</li>
+                        <li>OpenAPI/Swagger</li>
+                    </ul>
+                <li>Cloud Data Storage</li>
+                    <ul>
+                        <li>AWS S3</li>
+                    </ul>
             </ul>
             <h2>Why it interests me:</h2>
             <ul>
-                <li>Item1</li>
-                <li>Item2</li>
+                <li>I find myself pulled between the interactivity of the web and the analytical capabilities of <code>R</code></li>
+                <li>Plumber is a crucial part of <code>R</code>'s integration with the modern web</li>
+                <li>Exploring the boundaries of both webdev and data science requires platform-agnostic tools</li>
             </ul>
         </div>
     </PortfolioContainer>
