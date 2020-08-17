@@ -5,7 +5,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
         overflow-x: hidden;
-        border-bottom: 1px solid var(--line-color);
+        border-bottom: 1px solid var(--line);
     }
 
     :global(.project-header .title) {
@@ -79,6 +79,15 @@
         background-color: rgb(207, 223, 235);
         border-radius: 4px;
     }
+
+    /* @media (prefers-color-scheme: dark) {
+        :global(.project-header) {
+            border-bottom: 1px solid var(--primary-color);
+        }
+        :global(.project li) {
+            list-style: url('https://api.iconify.design/oi-chevron-right.svg?color=rgba(255%2C255%2C255%2C0.8)&width=.6em');
+        }
+    } */
 
     @media (min-width: 768px) {
         :global(.project) {

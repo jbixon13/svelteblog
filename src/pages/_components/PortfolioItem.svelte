@@ -13,7 +13,8 @@
 
 <style>
     main {
-        box-shadow: 0 0 5px #ccc;
+        background-color: var(--foreground);
+        box-shadow: 0 0 5px var(--shadow);
         margin-bottom: 24px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -21,7 +22,7 @@
 
     main:hover {
         transition: 0.35s;
-        box-shadow: 0 0 5px rgb(136, 132, 132);
+        box-shadow: 0 0 5px var(--shadow-hover);
     }
 
     img {

@@ -1,11 +1,16 @@
 :root {
+	--primary-text: hsl(200, 60%, 15%);
+	--background: white;
+	--foreground: white;
 	--primary-color: hsl(200, 60%, 15%);
 	--accent-color: #536DFE;
 	--white-text: rgba(255, 255, 255, 0.8);
 	--footer-text: rgba(255, 255, 255, .4);
 	--white-text-hover: rgba(255, 255, 255, 1);
 	--black: rgba(0, 0, 0, 0.8);
-	--line-color: rgba(0, 0, 0, 0.1);
+	--line: rgba(0, 0, 0, 0.1);
+	--shadow: #ccc;
+	--shadow-hover: rgb(136, 132, 132);
 }
 
 html, body {
@@ -15,14 +20,15 @@ html, body {
 }
 
 body {
-	color: #333;
+	color: var(--primary-text);
 	margin: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	transition: color 0.3s, background-color 0.3s;
 }
 
 a {
-	color: var(--primary-color);
+	color: var(--primary-text);
 	text-decoration: none;
 	transition: 0.3s;
 }
@@ -71,4 +77,25 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+.dark-mode {
+	--background: #061F2F;
+	--foreground: var(--primary-color);
+	--primary-text: var(--white-text);
+	--line: var(--primary-color);
+	--shadow: var(--black);
+	--shadow-hover: var(--black);
+
+	background: var(--background);
+	color: var(--primary-text);
+	transition: 0.3s;
+}
+
+.dark-mode .contact-img {
+	filter: invert(100%);
+}
+
+.dark-mode .project li {
+	list-style: url('https://api.iconify.design/oi-chevron-right.svg?color=rgba(255%2C255%2C255%2C0.8)&width=.6em');
 }

@@ -1,4 +1,5 @@
 <script>
+    import DarkToggle from './DarkToggle.svelte'
 </script>
 
 <main>
@@ -6,6 +7,9 @@
         <a href='/'>
             <img src='/logo.png' alt='Home button and logo'/>
         </a>
+        
+        <DarkToggle />
+        
         <ul>
             <a href='/'>
                 <li>Home</li>

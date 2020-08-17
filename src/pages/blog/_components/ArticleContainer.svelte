@@ -5,7 +5,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
         overflow-x: hidden;
-        border-bottom: 1px solid var(--line-color);
+        border-bottom: 1px solid var(--line);
     }
 
     :global(.title) {
