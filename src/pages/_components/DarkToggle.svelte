@@ -1,8 +1,16 @@
 <script>
-    export let darkMode = false;
+    import { darkMode } from '../../stores.js';
+
+    // determine preferred color sheme
+    const darkPreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // if(darkPreferred) {
+    //     let darkMode = false;
+    //     console.log($:darkMode);
+    // }
 
     function toggle() {
-        darkMode = !darkMode;
+        $darkMode = !$darkMode;
 
         window.document.body.classList.toggle('dark-mode');
 
@@ -13,14 +21,11 @@
         // assign dark mode class to li tags within PortfolioContainers
         var portfolioList = window.document.querySelectorAll('.project li')[0];
         portfolioList.classList.toggle('dark-mode');
-
-        // check for preferred color scheme
-        // window
     }
 </script>
 
 <button on:click={toggle}>
-    {#if darkMode}
+    {#if $darkMode}
         <img src='/images/dark-mode/sun-button.svg' alt='Click to activate light mode' />
     {:else}
         <img src='/images/dark-mode/moon-button.svg' alt='Click to activate dark mode' />
@@ -42,12 +47,6 @@
     img {
         width: 24px;
     }
-
-    /* img {
-        width: 24px;
-        margin-top: 22px;
-        margin-left: 24px;
-    } */
 
     @media (min-width: 768px) {
         button {
