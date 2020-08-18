@@ -21,14 +21,48 @@
 
 <button on:click={toggle}>
     {#if darkMode}
-        <img src="https://img.icons8.com/android/24/000000/sun.png" alt='Click to activate light mode' />
+        <img src='/images/dark-mode/sun-button.svg' alt='Click to activate light mode' />
     {:else}
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/moon-symbol.png" alt='Click to activate dark mode' />
+        <img src='/images/dark-mode/moon-button.svg' alt='Click to activate dark mode' />
     {/if}
 </button>
 
 <style>
     button {
-        background: transparent;
+        background: var(--primary-color);
+        border: none;
+        margin-top: 16px;
+        margin-left: 24px;
+    }
+
+    button:active{
+        background: var(--primary-color);
+    }
+
+    img {
+        width: 24px;
+    }
+
+    /* img {
+        width: 24px;
+        margin-top: 22px;
+        margin-left: 24px;
+    } */
+
+    @media (min-width: 768px) {
+        button {
+            margin-top: 11px;
+            margin-left: 96px;
+        }
+
+        img {
+            width: 36px;
+        }
+    }
+
+    @media (min-width: 1080px) {
+        button {
+            margin-left: 11.5%;
+        }
     }
 </style>
