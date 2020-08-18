@@ -4,10 +4,6 @@
 
 <main>
     <header>
-        <!-- <a href='/'>
-            <img src='/logo.png' alt='Home button and logo'/>
-        </a> -->
-
         <DarkToggle />
         
         <ul>

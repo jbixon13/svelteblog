@@ -3,7 +3,7 @@
 
     // determine preferred color sheme
     const darkPreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
+
     // if(darkPreferred) {
     //     let darkMode = false;
     //     console.log($:darkMode);
@@ -36,7 +36,7 @@
     button {
         background: var(--primary-color);
         border: none;
-        margin-top: 16px;
+        margin-top: 15px;
         margin-left: 24px;
     }
 
