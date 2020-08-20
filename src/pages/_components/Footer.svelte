@@ -16,7 +16,7 @@
         font-weight: 300;
         padding-top: 1vh; 
         padding-bottom: 1vh;
-        border-top: 1px solid var(--line-color);
+        border-top: 1px solid var(--line);
         background-color: var(--primary-color);
         text-align: center;
     }

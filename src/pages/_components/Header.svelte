@@ -1,11 +1,11 @@
 <script>
+    import DarkToggle from './DarkToggle.svelte'
 </script>
 
 <main>
     <header>
-        <a href='/'>
-            <img src='/logo.png' alt='Home button and logo'/>
-        </a>
+        <DarkToggle />
+        
         <ul>
             <a href='/'>
                 <li>Home</li>
@@ -36,12 +36,6 @@
         color: var(--black);
         border-bottom: 1px solid var(--black);
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
-    }
-
-    img {
-        width: 24px;
-        margin-top: 22px;
-        margin-left: 24px;
     }
 
     ul {
@@ -75,24 +69,12 @@
     }
 
     @media (min-width: 768px) {
-        img {
-            margin-top: 16px;
-            margin-left: 96px;
-            width: 36px;
-        }
-
         ul {
             margin-right: 96px;
         }
     }
 
     @media (min-width: 1080px) {
-        img {
-            margin-top: 16px;
-            margin-left: 11.5%;
-            width: 36px;
-        }
-
         ul {
             margin-right: 11.5%;
         }

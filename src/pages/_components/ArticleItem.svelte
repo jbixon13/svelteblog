@@ -24,7 +24,7 @@
         text-decoration: none;
         overflow: hidden;
         display: block;
-        border-bottom: 1px solid var(--line-color);
+        border-bottom: 1px solid var(--line);
         box-sizing: border-box;
         padding: 24px 0;
     }
@@ -42,7 +42,7 @@
 
     .date {
         margin-right: 1em;
-        color: var(--primary-color);
+        color: var(--primary-text);
     }
 
     .tags {
@@ -52,9 +52,9 @@
     }
 
     .tag {
-        color: var(--primary-color);
+        color: var(--primary-text);
         font-size: 80%;
-        border: 1px solid var(--primary-color);
+        border: 1px solid var(--primary-text);
         border-radius: 3px;
         text-transform: uppercase;
         font-weight: 500;
