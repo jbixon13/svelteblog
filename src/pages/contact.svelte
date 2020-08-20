@@ -43,6 +43,7 @@
 
     img {
         width:30px;
+        background: transparent;
         transition: ease-out 0.2s;
     }
 
