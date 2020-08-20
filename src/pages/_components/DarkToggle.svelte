@@ -1,14 +1,6 @@
 <script>
     import { darkMode } from '../../stores.js';
 
-    // determine preferred color sheme
-    const darkPreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    // if(darkPreferred) {
-    //     let darkMode = false;
-    //     console.log($:darkMode);
-    // }
-
     function toggle() {
         $darkMode = !$darkMode;
 
@@ -22,6 +14,12 @@
         // // assign dark mode class to li tags within PortfolioContainers
         // var portfolioList = window.document.querySelectorAll('.project li')[0];
         // portfolioList.classList.toggle('dark-mode');
+    }
+
+    // determine whether dark mode is preferred & apply by default if so
+    const darkPreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (darkPreferred) {
+        toggle();
     }
 </script>
 
