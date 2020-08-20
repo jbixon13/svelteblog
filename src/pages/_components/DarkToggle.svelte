@@ -15,12 +15,13 @@
         window.document.body.classList.toggle('dark-mode');
 
         // assign dark mode class to contact icons
-        var contact = window.document.getElementsByClassName('contact-img')[0];
-        contact.classList.toggle('dark-mode');
+        // var contact = window.document.getElementsByClassName('contact-img');
+        // console.log(contact[0].classList);
+        // contact.classList.toggle('dark-mode');
 
-        // assign dark mode class to li tags within PortfolioContainers
-        var portfolioList = window.document.querySelectorAll('.project li')[0];
-        portfolioList.classList.toggle('dark-mode');
+        // // assign dark mode class to li tags within PortfolioContainers
+        // var portfolioList = window.document.querySelectorAll('.project li')[0];
+        // portfolioList.classList.toggle('dark-mode');
     }
 </script>
 
