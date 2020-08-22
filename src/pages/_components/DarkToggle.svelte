@@ -9,7 +9,7 @@
 
     // determine whether dark mode is preferred & apply by default if so
     const darkPreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (darkPreferred) {
+    if (darkPreferred && $darkMode == false) {
         toggle();
     }
 </script>
