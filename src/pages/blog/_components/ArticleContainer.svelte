@@ -29,7 +29,7 @@
     }
 
     :global(.article p) {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     :global(.article code) {
@@ -42,6 +42,16 @@
 
     :global(.article img) {
         width: 100%;
+    }
+
+    :global(.article a) {
+        font-weight: 600;
+        color: var(--accent-color);
+    }
+
+    :global(.article .editors-note) {
+        font-weight: bold;
+        font-size: 16px;
     }
 
     @media (min-width: 768px) {

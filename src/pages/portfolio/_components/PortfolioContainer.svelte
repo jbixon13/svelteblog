@@ -28,10 +28,6 @@
         margin-right: 24px;
     }
 
-    :global(.project p) {
-        font-size: 16px;
-    }
-
     :global(.project img) {
         width: 50%;
         margin-left: 25%;
@@ -65,6 +61,7 @@
         list-style: url('https://api.iconify.design/oi-chevron-right.svg?width=.6em');
         margin-top: 0.25em;
         margin-bottom: 0.25em;
+        /* font-size: 18px; */
     }
 
     :global(.project li a) {
