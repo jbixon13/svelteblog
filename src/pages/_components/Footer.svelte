@@ -5,7 +5,7 @@
     <footer>
         <p>Made in Philly</p>
         <p>Design modeled after <a href='https://distill.pub/'>Distill.pub</a></p>
-        <p>Artwork attributions [tbd]</p>
+        <p>Artwork open-sourced from <a href='https://undraw.co/'>unDraw</a></p>
     </footer>
 </main>
 
