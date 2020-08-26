@@ -4,7 +4,7 @@
     import ArticleContainer from './_components/ArticleContainer.svelte'
     import { articles } from '../../stores.js'
     
-    let article = $articles[6];
+    let article = $articles[5];
 </script>
 
 <main>
