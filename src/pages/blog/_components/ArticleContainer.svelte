@@ -34,7 +34,7 @@
 
     :global(.article code) {
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-        padding: 2px 4px;
+        padding: 1px 2px;
         color: #004276;
         background-color: rgb(207, 223, 235);
         border-radius: 4px;

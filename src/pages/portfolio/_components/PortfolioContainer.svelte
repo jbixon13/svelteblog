@@ -61,7 +61,6 @@
         list-style: url('https://api.iconify.design/oi-chevron-right.svg?width=.6em');
         margin-top: 0.25em;
         margin-bottom: 0.25em;
-        /* font-size: 18px; */
     }
 
     :global(.project li a) {
@@ -71,7 +70,7 @@
 
     :global(.project code) {
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-        padding: 2px 4px;
+        padding: 1px 2px;
         color: #004276;
         background-color: rgb(207, 223, 235);
         border-radius: 4px;
