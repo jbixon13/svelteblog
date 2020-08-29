@@ -49,6 +49,7 @@
         margin-top: 1em;
         text-align: center;
         display: flex;
+        justify-content: center;
     }
 
     .tag {

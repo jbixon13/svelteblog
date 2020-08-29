@@ -4,7 +4,7 @@
     import ArticleContainer from './_components/ArticleContainer.svelte'
     import { articles } from '../../stores.js'
     
-    let article = $articles[3];
+    let article = $articles[1];
 </script>
 
 <main>
@@ -15,7 +15,7 @@
                 <h1 class='title'>{article.title}</h1>
                 <p class='subtitle'>{article.subtitle}</p>
             </div>
-            <p class='editors-note'>Editor's Note: This article was previously created using different tools and its visuals or performance don't reflect my current standards. I will convert it and give it a proper home here but don't want to focus on old work at the moment. <a href='https://jasonbixonblog.netlify.app/posts/2019-01-24-mapping-cyclist-safety-in-new-york-city/'>You can see it in its former glory here</a></p>
+            <p>Normal article text</p>
         </div>
     </ArticleContainer>
     <Footer />
