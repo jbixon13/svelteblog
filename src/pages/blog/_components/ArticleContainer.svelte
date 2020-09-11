@@ -40,6 +40,20 @@
         border-radius: 4px;
     }
 
+    :global(.article .hljs) {
+        padding: 1em;
+        margin: .5em 0;
+        overflow: auto;
+        border-radius: .3em;
+    }
+
+    :global(.article .hljs code) {
+        padding: unset;
+        color: unset;
+        background-color: unset;
+        border-radius: unset;
+    }
+
     :global(.article img) {
         width: 100%;
     }
