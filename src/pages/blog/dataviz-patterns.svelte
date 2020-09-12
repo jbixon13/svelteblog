@@ -1,4 +1,5 @@
 <script>
+    import { darkMode } from '../../stores.js';
     import Header from '../_components/Header.svelte'
     import Footer from '../_components/Footer.svelte'
     import ArticleContainer from './_components/ArticleContainer.svelte'
@@ -6,16 +7,13 @@
     import { Highlight } from 'svelte-highlight'
     import { javascript } from 'svelte-highlight/languages'
     import { anOldHope } from 'svelte-highlight/styles'
-    import { Map, Geocoder, Marker, controls } from '@beyonk/svelte-mapbox'
-
+    import { Map, controls } from '@beyonk/svelte-mapbox'
 
     let article = $articles[1];
 
     $: code = `const add = (a: number, b: number) => a + b;
 
     console.log('hello world');`
-
-    const { GeolocateControl, NavigationControl, ScaleControl } = controls
 </script>
 
 <svelte:head>
@@ -56,10 +54,21 @@
             <Highlight language={javascript} {code} />
             <h3>Build a basic chart</h3>
             <h3>What about Mapbox maps?</h3>
-            <!-- <Map accessToken={hello}>
-
-            </Map> -->
-            <h3>Deck.gl?</h3>
+            {#if $darkMode}
+                <Map 
+                    accessToken=MAPBOX_API_KEY
+                    style='mapbox://styles/mapbox/dark-v10'
+                    options={{ zoom: 11, center: [-75.1902, 39.9523], scrollZoom: false }} 
+                >
+                </Map>
+            {:else}
+                <Map 
+                    accessToken=MAPBOX_API_KEY
+                    style='mapbox://styles/mapbox/light-v10'
+                    options={{ zoom: 11, center: [-75.1902, 39.9523], scrollZoom: false }} 
+                >
+                </Map>
+            {/if}
         </div>
     </ArticleContainer>
     <Footer />

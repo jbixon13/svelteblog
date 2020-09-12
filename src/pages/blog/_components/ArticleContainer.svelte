@@ -68,6 +68,13 @@
         font-size: 16px;
     }
 
+    :global(.article .mapboxgl-map) {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        left: calc(-50vw + 50%)
+    }
+
     @media (min-width: 768px) {
         :global(.article) {
             margin-left: 96px;
