@@ -1,15 +1,18 @@
 <script>
-    import { darkMode } from '../../stores.js';
     import Header from '../_components/Header.svelte'
     import Footer from '../_components/Footer.svelte'
     import ArticleContainer from './_components/ArticleContainer.svelte'
+    import { darkMode } from '../../stores.js'
     import { articles } from '../../stores.js'
     import { Highlight } from 'svelte-highlight'
     import { javascript } from 'svelte-highlight/languages'
     import { anOldHope } from 'svelte-highlight/styles'
-    import { Map, controls } from '@beyonk/svelte-mapbox'
+    import { Map } from '@beyonk/svelte-mapbox'
+    import Scroller from '@sveltejs/svelte-scroller'
 
     let article = $articles[1];
+
+    let index, offset, progress;
 
     $: code = `const add = (a: number, b: number) => a + b;
 
@@ -54,21 +57,31 @@
             <Highlight language={javascript} {code} />
             <h3>Build a basic chart</h3>
             <h3>What about Mapbox maps?</h3>
-            {#if $darkMode}
-                <Map 
-                    accessToken=MAPBOX_API_KEY
-                    style='mapbox://styles/mapbox/dark-v10'
-                    options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
-                >
-                </Map>
-            {:else}
-                <Map 
-                    accessToken=MAPBOX_API_KEY
-                    style='mapbox://styles/mapbox/light-v10'
-                    options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
-                >
-                </Map>
-            {/if}
+            <Scroller top={0} bottom={0.5} bind:index bind:offset bind:progress>
+                <div slot='background'>
+                    {#if $darkMode}
+                        <Map 
+                            accessToken=MAPBOX_API_KEY
+                            style='mapbox://styles/mapbox/dark-v10'
+                            options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
+                        >
+                        </Map>
+                    {:else}
+                        <Map 
+                            accessToken=MAPBOX_API_KEY
+                            style='mapbox://styles/mapbox/light-v10'
+                            options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
+                        >
+                    </Map>
+                    {/if}
+                </div>
+                <div class='scroll-foreground' slot='foreground'>
+                    <section>Maps look good and can be customized based on whether the reader is using light or dark mode.</section>
+                    <section>I can also use the map as a background in a scrollytelling document as is seen in many professional data journalism publications.</section>
+                    <section>This means I can use transitions to add to the narration of the story. Let's do an example and narrate me moving from Baltimore to Philly.</section>
+                </div>
+            </Scroller>
+            <br style='margin-bottom:800px'/>
         </div>
     </ArticleContainer>
     <Footer />

@@ -75,6 +75,23 @@
         left: calc(-50vw + 50%)
     }
 
+    :global(.article .scroll-foreground section) {
+        min-height: 20vh;
+        background-color: rgba(68, 62, 62, 0.6);
+        margin: 0 10% 60vh 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-text);
+        text-align: center;
+    }
+
+    :global(.article .scroll-foreground section:last-of-type) {
+        margin-bottom: unset;
+    }
+
     @media (min-width: 768px) {
         :global(.article) {
             margin-left: 96px;
