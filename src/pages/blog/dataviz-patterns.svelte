@@ -58,14 +58,14 @@
                 <Map 
                     accessToken=MAPBOX_API_KEY
                     style='mapbox://styles/mapbox/dark-v10'
-                    options={{ zoom: 11, center: [-75.1902, 39.9523], scrollZoom: false }} 
+                    options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
                 >
                 </Map>
             {:else}
                 <Map 
                     accessToken=MAPBOX_API_KEY
                     style='mapbox://styles/mapbox/light-v10'
-                    options={{ zoom: 11, center: [-75.1902, 39.9523], scrollZoom: false }} 
+                    options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
                 >
                 </Map>
             {/if}
