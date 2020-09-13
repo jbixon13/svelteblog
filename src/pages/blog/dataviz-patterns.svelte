@@ -14,6 +14,10 @@
 
     let index, offset, progress;
 
+    function flyTest() {
+        mapComponent.flyTo({center: [-76.612016, 39.2793947]});
+    };
+
     $: code = `const add = (a: number, b: number) => a + b;
 
     console.log('hello world');`

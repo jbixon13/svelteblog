@@ -75,6 +75,10 @@
         left: calc(-50vw + 50%)
     }
 
+    :global(.article .scroll-foreground) {
+        padding-top: 100vh;
+    }
+
     :global(.article .scroll-foreground section) {
         min-height: 20vh;
         background-color: rgba(68, 62, 62, 0.6);
