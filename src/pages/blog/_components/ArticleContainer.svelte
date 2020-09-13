@@ -81,14 +81,14 @@
 
     :global(.article .scroll-foreground section) {
         min-height: 20vh;
-        background-color: rgba(68, 62, 62, 0.6);
+        background-color: rgba(var(--scroller-background), 0.8);
         margin: 0 10% 60vh 10%;
         padding-left: 5%;
         padding-right: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: var(--white-text);
+        /* color: var(--white-text); */
         text-align: center;
     }
 
@@ -100,6 +100,10 @@
         :global(.article) {
             margin-left: 96px;
             margin-right: 96px;
+        }
+
+        :global(.article .scroll-foreground section) {
+        margin: 0 15% 60vh 15%;
         }
     }
 
