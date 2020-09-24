@@ -89,15 +89,6 @@
                     <section>This means I can use transitions to add to the narration of the story. Let's do an example and narrate me moving from Baltimore to Philly.</section>
                 </div>
             </Scroller>
-            <br style='margin-bottom:800px'/>
-            <Map 
-            accessToken=MAPBOX_API_KEY
-            bind:this={mapComponent}
-            on:click={flyToTest}
-            style='mapbox://styles/mapbox/light-v10'
-            options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: true }} 
-            >
-            </Map>
         </div>
     </ArticleContainer>
     <Footer />
