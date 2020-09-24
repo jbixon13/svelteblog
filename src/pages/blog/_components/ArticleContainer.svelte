@@ -29,25 +29,80 @@
     }
 
     :global(.article p) {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     :global(.article code) {
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-        padding: 2px 4px;
+        padding: 1px 2px;
         color: #004276;
         background-color: rgb(207, 223, 235);
         border-radius: 4px;
+    }
+
+    :global(.article .hljs) {
+        padding: 1em;
+        margin: .5em 0;
+        overflow: auto;
+        border-radius: .3em;
+    }
+
+    :global(.article .hljs code) {
+        padding: unset;
+        color: unset;
+        background-color: unset;
+        border-radius: unset;
     }
 
     :global(.article img) {
         width: 100%;
     }
 
+    :global(.article a) {
+        font-weight: 600;
+        color: var(--accent-color);
+    }
+
+    :global(.article .editors-note) {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    :global(.article .mapboxgl-map) {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        left: calc(-50vw + 50%)
+    }
+
+    :global(.article .scroll-foreground) {
+        padding-top: 100vh;
+    }
+
+    :global(.article .scroll-foreground section) {
+        min-height: 20vh;
+        background-color: rgba(var(--scroller-background), 0.8);
+        margin: 0 10% 60vh 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    :global(.article .scroll-foreground section:last-of-type) {
+        margin-bottom: unset;
+    }
+
     @media (min-width: 768px) {
         :global(.article) {
             margin-left: 96px;
             margin-right: 96px;
+        }
+
+        :global(.article .scroll-foreground section) {
+        margin: 0 15% 60vh 15%;
         }
     }
 

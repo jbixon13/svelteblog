@@ -2,6 +2,7 @@
 	--primary-text: hsl(200, 60%, 15%);
 	--background: white;
 	--foreground: white;
+	--scroller-background: 255, 255, 255;
 	--primary-color: hsl(200, 60%, 15%);
 	--accent-color: #536DFE;
 	--white-text: rgba(255, 255, 255, 0.8);
@@ -82,6 +83,7 @@ button:focus {
 .dark-mode {
 	--background: #061F2F;
 	--foreground: var(--primary-color);
+	--scroller-background: 65, 65, 65;
 	--primary-text: var(--white-text);
 	--line: var(--primary-color);
 	--shadow: var(--black);

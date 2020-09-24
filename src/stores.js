@@ -7,20 +7,20 @@ export const articles = writable([
     id: 1,
     title: 'A Year of Web Development',
     subtitle: 'I have rebuilt this blog way too many times.',
-    date: '4/18/2020',
+    date: '8/29/2020',
     preview: 'webdev-year.svg',
     link: 'webdev-year',
-    tags: ['Webdev', 'React']
-	},
-	{
-    id: 2,
-    title: '3D Terrain in Deck.gl',
-    subtitle: 'Experimental 3D tiles are fun.',
-    date: '3/03/2020',
-    preview: 'terrain-map.gif',
-    link: 'deck-terrain',
-    tags: ['Mapping', 'Deck.gl']
+    tags: ['Webdev', 'Svelte']
   },
+  {
+    id: 2,
+    title: 'Data Visualization Patterns',
+    subtitle: 'How I build interactive articles, essays, & analyses for the web.',
+    date: '8/29/2020',
+    preview: 'dataviz-patterns.svg',
+    link: 'dataviz-patterns',
+    tags: ['Data Viz', 'D3']
+	},
   {
     id: 3,
     title: 'Learning DevOps, Unfortunately',
@@ -37,7 +37,7 @@ export const articles = writable([
     date: '9/11/2019',
     preview: 'cyclist-safety.svg',
     link: 'cyclist-safety',
-    tags: ['Transit', 'sf']
+    tags: ['Transit', 'Geospatial']
   },                       
   {
     id: 5,

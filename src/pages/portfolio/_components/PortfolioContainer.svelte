@@ -28,10 +28,6 @@
         margin-right: 24px;
     }
 
-    :global(.project p) {
-        font-size: 16px;
-    }
-
     :global(.project img) {
         width: 50%;
         margin-left: 25%;
@@ -74,7 +70,7 @@
 
     :global(.project code) {
         font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-        padding: 2px 4px;
+        padding: 1px 2px;
         color: #004276;
         background-color: rgb(207, 223, 235);
         border-radius: 4px;
