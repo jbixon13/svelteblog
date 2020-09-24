@@ -18,7 +18,7 @@
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
             <div class='links'>
                 <h2>
-                    <a href='https://jasonbixonsvelte.netlify.app/' target='_blank' rel='noopener noreferrer'>See the app</a>
+                    <a href='https://jasonbixon.netlify.app/' target='_blank' rel='noopener noreferrer'>See the app</a>
                 </h2>
                 <h2>
                     <a href='https://github.com/jbixon13/svelteblog' target='_blank' rel='noopener noreferrer'>See the code</a>

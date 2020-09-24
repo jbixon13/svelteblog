@@ -18,7 +18,7 @@
             <img src={'/images/portfolio-previews/' + project.preview} alt='Project preview'/>
             <div class='links'>
                 <h2>
-                    <a href='https://jasonbixonsvelte.netlify.app/' target='_blank' rel='noopener noreferrer'>See the poster</a>
+                    <a href='https://drive.google.com/file/d/1-169y1IckPUxjcIiNCMAVf8RIsoJGSiw/view?usp=sharing' target='_blank' rel='noopener noreferrer'>See the poster</a>
                 </h2>
                 <h2>
                     <a href='https://github.com/jbixon13/Swim-Lab' target='_blank' rel='noopener noreferrer'>See the code</a>
