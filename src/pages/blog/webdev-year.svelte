@@ -15,7 +15,7 @@
                 <h1 class='title'>{article.title}</h1>
                 <p class='subtitle'>{article.subtitle}</p>
             </div>
-            <p>Normal article text</p>
+            <p>Work in progress.</p>
         </div>
     </ArticleContainer>
     <Footer />

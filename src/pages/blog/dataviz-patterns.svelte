@@ -4,9 +4,9 @@
     import ArticleContainer from './_components/ArticleContainer.svelte'
     import { darkMode } from '../../stores.js'
     import { articles } from '../../stores.js'
-    import { Highlight } from 'svelte-highlight'
-    import { javascript } from 'svelte-highlight/languages'
-    import { anOldHope } from 'svelte-highlight/styles'
+    // import { Highlight } from 'svelte-highlight'
+    // import { javascript } from 'svelte-highlight/languages'
+    // import { anOldHope } from 'svelte-highlight/styles'
     import { Map } from '@beyonk/svelte-mapbox'
     import Scroller from '@sveltejs/svelte-scroller'
 
@@ -14,20 +14,22 @@
 
     let index, offset, progress;
 
-    function flyTest() {
-        mapComponent.flyTo({center: [-76.612016, 39.2793947]});
-    };
+    let mapComponent
+    
+    // $: code = `const add = (a: number, b: number) => a + b;
 
-    $: code = `const add = (a: number, b: number) => a + b;
+    // console.log('hello world');`
 
-    console.log('hello world');`
+    function flyToTest() {
+        mapComponent.flyTo([-72.5507071, 40.9544124]);
+    }
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js" integrity="sha512-VTY+zyTivsIMZ+ANMHvwsnz0hIRHyu/I+7vLqaGaQs//PnQEuNyrLsCwNYo64H92vHojvj2Oiq7bfli0fTSDkQ==" crossorigin="anonymous"></script>
     {@html anOldHope}
-</svelte:head>
+</svelte:head> -->
 
 <main>
     <Header />
@@ -57,15 +59,17 @@
             </ul>
             <p>This is not an exhaustive comparison and I plan to write in more depth about it soon, this is just to give some context on the tools available for the job.</p>
             <h2>Let's see some viz</h2>
-            <h3>Read in your data</h3>
+            <!-- <h3>Read in your data</h3>
             <Highlight language={javascript} {code} />
             <h3>Build a basic chart</h3>
-            <h3>What about Mapbox maps?</h3>
+            <p>Chart will go here</p> -->
+            <h3>Mapbox maps</h3>
             <Scroller top={0} bottom={0.5} bind:index bind:offset bind:progress>
                 <div slot='background'>
                     {#if $darkMode}
                         <Map 
                             accessToken=MAPBOX_API_KEY
+                            bind:this={mapComponent}
                             style='mapbox://styles/mapbox/dark-v10'
                             options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
                         >
@@ -76,7 +80,7 @@
                             style='mapbox://styles/mapbox/light-v10'
                             options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: false }} 
                         >
-                    </Map>
+                        </Map>
                     {/if}
                 </div>
                 <div class='scroll-foreground' slot='foreground'>
@@ -86,6 +90,14 @@
                 </div>
             </Scroller>
             <br style='margin-bottom:800px'/>
+            <Map 
+            accessToken=MAPBOX_API_KEY
+            bind:this={mapComponent}
+            on:click={flyToTest}
+            style='mapbox://styles/mapbox/light-v10'
+            options={{ zoom: 11, center: [-75.1902, 39.9523], interactive: true }} 
+            >
+            </Map>
         </div>
     </ArticleContainer>
     <Footer />
